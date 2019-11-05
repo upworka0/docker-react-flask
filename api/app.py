@@ -4,7 +4,6 @@ import json
 from dotenv import load_dotenv
 from pathlib import Path
 import os
-from flask_cors import CORS
 
 
 # load env
@@ -20,7 +19,7 @@ SECRET = os.getenv("SECRET")
 
 
 app = Flask(__name__)
-CORS(app)
+
 
 @app.route('/')
 def index():

@@ -12,7 +12,8 @@
     "react-material-ui-datatable": "^2.0.0-alpha.29",
     "react-scripts": "3.2.0",
     "styled-components": "^4.4.1",
-    "typescript": "^3.6.4"
+    "typescript": "^3.6.4",
+    "axios": "*"
   },
   "scripts": {
     "start": "react-scripts start",

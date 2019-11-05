@@ -1,3 +1,6 @@
 Flask-Cors
 Flask
 Flask-RESTful
+uWSGI
+python-dotenv
+requests
